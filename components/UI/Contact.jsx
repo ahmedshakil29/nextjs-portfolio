@@ -8,20 +8,20 @@ import EndDiv from "./EndDiv";
 import StartDiv from "./StartDiv";
 
 const Contact = () => {
-  const contactme = "// feel free to contact me";
-  const social = "// social..";
-  const address = "// address..";
-  const reachme = "// or reach me here..";
+  const contactMe = "You can feel free to contact me";
+  const social = "Social...";
+  const address = "Address...";
+  const reachMe = "// or reach me here..";
 
   return (
     <section id="contact" className={`${classes.contact}`}>
       <Container>
-        <StartDiv title="contact" type="section" />
+        <StartDiv title="Contact" type="section" />
         <Row>
           <Col lg="6" md="6">
             {/* <SectionSubtitle subtitle="Contact me" /> */}
             <h5 className="mb-4" style={{ color: "#808dad" }}>
-              {contactme}
+              {contactMe}
             </h5>
             <h2 className="mt-4 mb-4">Get in touch... 📡</h2>
             <h5 className={`${classes.about__self}`}>Want to reach me??</h5>
@@ -40,21 +40,24 @@ const Contact = () => {
               {/* <Link href="#">
                 <i className="ri-youtube-line"></i>
               </Link> */}
-              <Link href="https://github.com/TIRony" target="_blank">
+              <Link href="https://github.com/ahmedshakil29" target="_blank">
                 <i className="ri-github-line"></i>
               </Link>
-              <Link
-                href="https://www.facebook.com/taraqulislam.rony.5"
+              {/* <Link
+                href="facebook"
                 target="_blank"
               >
                 <i className="ri-facebook-line"></i>
-              </Link>
-              <Link href="https://www.linkedin.com/in/tirony/" target="_blank">
+              </Link> */}
+              <Link
+                href="https://www.linkedin.com/in/shakil-ahmed-aiub/"
+                target="_blank"
+              >
                 <i className="ri-linkedin-line"></i>
               </Link>
-              <Link href="https://www.instagram.com/t_i_rony/" target="_blank">
+              {/* <Link href="instagram" target="_blank">
                 <i className="ri-instagram-line"></i>
-              </Link>
+              </Link> */}
             </div>
 
             <h5
@@ -69,19 +72,19 @@ const Contact = () => {
                 <span>
                   <i className="ri-map-pin-line"></i>
                 </span>
-                <p>Kha-100/6/B, Namapara, Khilkhet, Dhaka-1229 - Bangladesh</p>
+                <p>DIT Project, Merul Badda Dhaka-1212 Bangladesh</p>
               </li>
               <li className={`${classes.info__item}`}>
                 <span>
                   <i className="ri-mail-line"></i>
                 </span>
-                <p>Rony120114@gmail.com</p>
+                <p>ahmedshakil.aiub@gmail.com</p>
               </li>
               <li className={`${classes.info__item}`}>
                 <span>
                   <i className="ri-phone-line"></i>
                 </span>
-                <p>+08801951265659</p>
+                <p>+8801784285243</p>
               </li>
             </ul>
           </Col>
@@ -90,12 +93,12 @@ const Contact = () => {
               className="mb-4"
               style={{ color: "#808dad", paddingTop: "20px" }}
             >
-              {reachme}
+              {reachMe}
             </h5>
             <Form />
           </Col>
         </Row>
-        <EndDiv type="section" />
+        {/* <EndDiv type="section" /> */}
       </Container>
     </section>
   );
