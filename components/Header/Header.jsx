@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import { Container } from "reactstrap";
 import classes from "./header.module.css";
+// import classes2 from "../../styles/contact.module.css";
 import Link from "next/link";
 
 const NAV__LINK = [
@@ -10,19 +11,23 @@ const NAV__LINK = [
   },
   {
     path: "#work",
-    display: ".work( )",
+    display: "Work",
+  },
+  {
+    path: "#projects",
+    display: "Projects",
   },
   {
     path: "#about",
-    display: ".about( )",
+    display: "About",
   },
   {
     path: "#tools",
-    display: ".tools( )",
+    display: "Tools",
   },
   {
-    path: '#contact',
-    display: ".contact( )",
+    path: "#contact",
+    display: "Contact",
   },
 ];
 
@@ -57,11 +62,11 @@ const Header = () => {
         <div className={`${classes.nav__wrapper}`}>
           {/* ======== navigation logo ======== */}
           <div className={`${classes.logo}`}>
-              <Link href={"/"}>
-                <h1>
-                  <span>rony( )</span>
-                </h1>
-              </Link>
+            <Link href={"/"}>
+              <h1>
+                <span>SHAKIL AHMED</span>
+              </h1>
+            </Link>
           </div>
 
           {/* ========= nav menu =========== */}
@@ -80,9 +85,23 @@ const Header = () => {
               <div className={`${classes.nav__right}`}>
                 <p className=" d-flex align-items-center gap-2 mb-0">
                   {/* <i className="ri-phone-line"></i> */}
-                  <i className="">{'.num('}</i>
-                  {"+8801951265659"}
-                  <i className="">{');'}</i>
+                  <i className="">{".num("}</i>
+                  {"+8801784285243"}
+                  <i className="">{");"}</i>
+                  <div>
+                    <Link
+                      href="https://www.linkedin.com/in/shakil-ahmed-aiub/"
+                      target="_blank"
+                    >
+                      <i className="ri-linkedin-line"></i>
+                    </Link>
+                    <Link
+                      href="https://github.com/ahmedshakil29"
+                      target="_blank"
+                    >
+                      <i className="ri-github-line"></i>
+                    </Link>
+                  </div>
                 </p>
               </div>
             </div>
