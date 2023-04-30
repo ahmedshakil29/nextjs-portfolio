@@ -32,8 +32,8 @@ const Portfolio = () => {
   }, [filter]);
 
   const active = `${classes.tab__btn__active}`;
-  const works = "// some of my distinguished works";
-  const works2 = "// some of my academic works";
+  const works = "// Some of my distinguished works";
+  const works2 = "// Some of my academic works";
 
   return (
     <section id="projects">

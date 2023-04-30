@@ -31,9 +31,10 @@ const Work = () => {
               institute="American International University - Bangladesh (AIUB)"
               degree="Thesis Research "
               year="2021"
-              des="Obtained the BSc degree with CGPA 3.60 out of 4.00 and 
-            Completed my thesis with the topic “Smart Virtual Assistant for Student Portal (Machine Learning)” 
-            under the supervision of Dr. Abdullah – Al-Zubair, Assistant Professor."
+              des="As a BSc degree in CSE, I am proud to have completed a thesis paper on Smart Virtual Assistant for Student Portal(Machine Learning) under the supervision of Dr. Abdullah–Al-Zubair, Assistant Professor & Director, Computer Science (AIUB). 
+              My research aimed to using a specific voice command, this system will help the user to get the required information or to access a page in a very short time without memorizing any route. 
+              I am excited to share my findings with the wider community. 
+          "
             />
 
             <Link

@@ -83,26 +83,22 @@ const Header = () => {
               ))}
 
               <div className={`${classes.nav__right}`}>
+                {/* <div className={`${classes.social__links}`}> */}
                 <p className=" d-flex align-items-center gap-2 mb-0">
-                  {/* <i className="ri-phone-line"></i> */}
-                  <i className="">{".num("}</i>
+                  <Link
+                    href="https://www.linkedin.com/in/shakil-ahmed-aiub/"
+                    target="_blank"
+                  >
+                    <i className="ri-linkedin-line"></i>
+                  </Link>
+                  <Link href="https://github.com/ahmedshakil29" target="_blank">
+                    <i className="ri-github-line"></i>
+                  </Link>
+                  <br></br>
+                  <i className="ri-phone-line"></i>
                   {"+8801784285243"}
-                  <i className="">{");"}</i>
-                  <div>
-                    <Link
-                      href="https://www.linkedin.com/in/shakil-ahmed-aiub/"
-                      target="_blank"
-                    >
-                      <i className="ri-linkedin-line"></i>
-                    </Link>
-                    <Link
-                      href="https://github.com/ahmedshakil29"
-                      target="_blank"
-                    >
-                      <i className="ri-github-line"></i>
-                    </Link>
-                  </div>
                 </p>
+                {/* </div> */}
               </div>
             </div>
           </div>

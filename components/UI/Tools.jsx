@@ -43,7 +43,7 @@ const Tools = () => {
               ExpressJS
             </h5>
             <h5 className="mb-4" style={{ color: "White" }}>
-              PHP
+              .Net
             </h5>
             <h5 className="mb-4" style={{ color: "White" }}>
               MongoDB
@@ -64,14 +64,17 @@ const Tools = () => {
             <h5 className="mb-4" style={{ color: "White" }}>
               NextJS
             </h5>
-            <h5 className="mb-4" style={{ color: "White" }}>
+            {/* <h5 className="mb-4" style={{ color: "White" }}>
               Redux
             </h5>
             <h5 className="mb-4" style={{ color: "White" }}>
               SAAS
-            </h5>
+            </h5> */}
             <h5 className="mb-4" style={{ color: "White" }}>
               CSS
+            </h5>
+            <h5 className="mb-4" style={{ color: "White" }}>
+              Tailwind
             </h5>
             <h5 className="mb-4" style={{ color: "White" }}>
               HTML
@@ -95,9 +98,9 @@ const Tools = () => {
             <h5 className="mb-4" style={{ color: "White" }}>
               Linux
             </h5>
-            <h5 className="mb-4" style={{ color: "White" }}>
+            {/* <h5 className="mb-4" style={{ color: "White" }}>
               AJAX
-            </h5>
+            </h5> */}
           </Col>
 
           {/* <Col lg="4" md="4">
