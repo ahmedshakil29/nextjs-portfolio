@@ -2,57 +2,98 @@ import React from "react";
 import classes from "../../styles/portfolio-item.module.css";
 import Image from "next/image";
 import Link from "next/link";
-import { AiOutlineRocket, AiOutlineSearch, AiFillNotification, AiOutlineAlert } from "react-icons/ai";
+import {
+  AiOutlineRocket,
+  AiOutlineSearch,
+  AiFillNotification,
+  AiOutlineAlert,
+} from "react-icons/ai";
 
 const PortfolioItem = (props) => {
   const { title, img, liveUrl, keyword, gitUrl, description } = props.item;
   const thinkbeforelaunch = "// think before launch";
-  const launchthesite = "// launch the site";
-  const request = "// Source code can be shown upon request";
-  const githubcode = "// check on github for more details and source code";
-  const des = "// description";
-  const stack = "// tech stack";
-  const seeitinaction = "// See it in action";
+  const launchthesite = "Launch the site";
+  const request = "Source code can be shown upon request";
+  const githubcode = "Check on github for more details and source code";
+  const des = "Description";
+  const stack = "Tech stack";
+  const seeitinaction = "** See it in action";
 
   function liveSite() {
     if (liveUrl === "null") {
-      return null
+      return null;
     } else if (liveUrl === "/") {
-
-      return <div className={`${classes.portfolio__live} bg-transparent`}>
-        <h5 style={{ color: "#808dad" }}>{thinkbeforelaunch}
-          <AiOutlineRocket fontSize="1.5em" style={{ color: "#808dad", background: "transparent" }} />
-          <AiOutlineAlert fontSize="1.5em" style={{ color: "#808dad", background: "transparent" }} />
-        </h5>
-        <button className="primary__btn">
-          <Link href={liveUrl}>Launch</Link>
-        </button>
-      </div>
+      return (
+        <div className={`${classes.portfolio__live} bg-transparent`}>
+          <h5 style={{ color: "#808dad" }}>
+            {thinkbeforelaunch}
+            <AiOutlineRocket
+              fontSize="1.5em"
+              style={{ color: "#808dad", background: "transparent" }}
+            />
+            <AiOutlineAlert
+              fontSize="1.5em"
+              style={{ color: "#808dad", background: "transparent" }}
+            />
+          </h5>
+          <button className="primary__btn">
+            <Link href={liveUrl}>Launch</Link>
+          </button>
+        </div>
+      );
     } else {
-      return <div className={`${classes.portfolio__live} bg-transparent`}>
-        <h5 style={{ color: "#808dad" }}>{launchthesite} <AiOutlineRocket fontSize="1.5em" style={{ color: "#808dad", background: "transparent" }} /></h5>
-        <button className="primary__btn">
-          <Link href={liveUrl} target={"_blank"}>Launch</Link>
-        </button>
-      </div>
+      return (
+        <div className={`${classes.portfolio__live} bg-transparent`}>
+          <h5 style={{ color: "#808dad" }}>
+            {launchthesite}{" "}
+            <AiOutlineRocket
+              fontSize="1.5em"
+              style={{ color: "#808dad", background: "transparent" }}
+            />
+          </h5>
+          <button className="primary__btn">
+            <Link href={liveUrl} target={"_blank"}>
+              Launch
+            </Link>
+          </button>
+        </div>
+      );
     }
   }
 
   function github() {
     if (gitUrl === "null") {
-      return <div className={`${classes.portfolio__live} bg-transparent`}>
-        <h5 style={{ color: "#808dad" }}>{request} <AiFillNotification fontSize="1.5em" style={{ color: "#808dad", background: "transparent" }} /></h5>
-      </div>
+      return (
+        <div className={`${classes.portfolio__live} bg-transparent`}>
+          <h5 style={{ color: "#808dad" }}>
+            {request}{" "}
+            <AiFillNotification
+              fontSize="1.5em"
+              style={{ color: "#808dad", background: "transparent" }}
+            />
+          </h5>
+        </div>
+      );
     } else {
-      return <div className={`${classes.portfolio__live} bg-transparent`}>
-        <h5 style={{ color: "#808dad" }}> {githubcode} <AiOutlineSearch fontSize="1.5em" style={{ color: "#808dad", background: "transparent" }} /></h5>
-        <button className="primary__btn" >
-          <Link href={gitUrl} target={"_blank"}>Check </Link>
-        </button>
-      </div>
+      return (
+        <div className={`${classes.portfolio__live} bg-transparent`}>
+          <h5 style={{ color: "#808dad" }}>
+            {" "}
+            {githubcode}{" "}
+            <AiOutlineSearch
+              fontSize="1.5em"
+              style={{ color: "#808dad", background: "transparent" }}
+            />
+          </h5>
+          <button className="primary__btn">
+            <Link href={gitUrl} target={"_blank"}>
+              Check{" "}
+            </Link>
+          </button>
+        </div>
+      );
     }
   }
-
 
   return (
     <div className={`${classes.portfolio__item}`}>
