@@ -43,10 +43,10 @@ const About = () => {
             {moreDetails}
           </h5>
           <Qualification
-            institute="Sariakandi Govt. High School"
-            degree="Secondary School Certificate (SSC)"
-            year="2008-2013"
-            des="GPA: 5.00 out of 5.00"
+            institute="American International University - Bangladesh (AIUB)"
+            degree="Bachelor of Science in Computer Science & Engineering (B.Sc. CSE)"
+            year="2017 - 2021"
+            des=" CGPA 3.71 out of 4.00 and "
           />
           <Qualification
             institute="Govt. Azizul Haque College Bogura"
@@ -55,12 +55,11 @@ const About = () => {
             des="GPA: 4.00 out of 5.00"
           />
           <Qualification
-            institute="American International University - Bangladesh (AIUB)"
-            degree="Bachelor of Science in Computer Science & Engineering (B.Sc. CSE)"
-            year="2017 - 2021"
-            des=" CGPA 3.71 out of 4.00 and "
+            institute="Sariakandi Govt. High School"
+            degree="Secondary School Certificate (SSC)"
+            year="2008-2013"
+            des="GPA: 5.00 out of 5.00"
           />
-
           {/* <div className="mt-5">
             <button className="primary__btn">
               <Link href="/#portfolio" scroll={false}>
