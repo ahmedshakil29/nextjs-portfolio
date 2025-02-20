@@ -101,7 +101,8 @@ const PortfolioItem = (props) => {
         {/* <h5 style={{ color: "#808dad" }}>{seeitinaction}</h5> */}
         <h3 className="mb-4">{title}</h3>
         <h5 style={{ color: "#808dad" }}>{des}</h5>
-        <h5 style={{ color: "white" }}>{description}</h5>
+        {/* <h5 style={{ color: "white" }}>{description}</h5> */}
+        <h5 style={{ color: "white", textAlign: "justify" }}>{description}</h5>
         <h5 style={{ color: "#808dad" }}>{stack}</h5>
         {keyword.map((item, index) => (
           <span className={`${classes.portfolio__keyword}`} key={index}>
