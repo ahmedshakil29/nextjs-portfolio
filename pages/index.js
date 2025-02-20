@@ -33,7 +33,7 @@ export default function Home() {
 
         {/* <!-- Open Graph / Facebook --> */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://tirony.netlify.app/" />
+        <meta property="og:url" content="https://ahmed-shakil.netlify.app/" />
         <meta property="og:title" content="Shakil Ahmed | Portfolio 📃" />
         <meta
           property="og:description"
