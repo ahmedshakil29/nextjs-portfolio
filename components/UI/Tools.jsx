@@ -8,16 +8,6 @@ import EndDiv from "./EndDiv";
 import StartDiv from "./StartDiv";
 
 const Tools = () => {
-  const settings = {
-    dots: false,
-    autoplay: true,
-    speed: 1000,
-    autoplaySpeed: 2000,
-    infinite: true,
-    swipeToSlide: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  };
   const tools = "// i like to use these favorite tools right now...";
 
   return (
@@ -49,27 +39,28 @@ const Tools = () => {
               MongoDB
             </h5>
             <h5 className="mb-4" style={{ color: "White" }}>
-              MySQL
+              Microsoft SQL Server
+            </h5>
+            <h5 className="mb-4" style={{ color: "White" }}>
+              MySQL/MariaDB
             </h5>
           </Col>
-
           <Col lg="4" md="4" className={`${classes.testimonial__font}`}>
             <h4 className="mb-4" style={{ color: "#01d293" }}>
               Front-End
             </h4>
-
             <h5 className="mb-4" style={{ color: "White" }}>
               ReactJS
             </h5>
             <h5 className="mb-4" style={{ color: "White" }}>
               NextJS
             </h5>
-            {/* <h5 className="mb-4" style={{ color: "White" }}>
+            <h5 className="mb-4" style={{ color: "White" }}>
               Redux
             </h5>
             <h5 className="mb-4" style={{ color: "White" }}>
-              SAAS
-            </h5> */}
+              Bootstrap
+            </h5>
             <h5 className="mb-4" style={{ color: "White" }}>
               CSS
             </h5>
@@ -86,107 +77,22 @@ const Tools = () => {
               Ant Design
             </h5>
           </Col>
-
           <Col lg="4" md="4" className={`${classes.testimonial__other}`}>
             <h4 className="mb-4" style={{ color: "#01d293" }}>
               Others
             </h4>
-
             <h5 className="mb-4" style={{ color: "White" }}>
               TypeScripts
             </h5>
             <h5 className="mb-4" style={{ color: "White" }}>
               Linux
             </h5>
-            {/* <h5 className="mb-4" style={{ color: "White" }}>
+            <h5 className="mb-4" style={{ color: "White" }}>
               AJAX
-            </h5> */}
+            </h5>
           </Col>
-
-          {/* <Col lg="4" md="4">
-            <SectionSubtitle subtitle="Testimonials" />
-            <h4 className="mt-4 mb-5">What my client says</h4>
-
-            <Slider {...settings}>
-              <div className={`${classes.testimonial__item}`}>
-                <div className={`${classes.testimonial__client}`}>
-                  <Image
-                    alt="client-img"
-                    src="/images/hero.jpg"
-                    width="50"
-                    height="50"
-                    className=" rounded-2"
-                  />
-
-                  <div>
-                    <h6>Jhon Doe</h6>
-                    <h6>Software Engineer</h6>
-                  </div>
-                </div>
-
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi saepe eveniet dolores molestias nisi ullam quis
-                  delectus inventore, quidem beatae ipsa pariatur doloribus
-                  corrupti! Quisquam expedita minima, neque et quis, fugiat hic
-                  iste possimus vitae perspiciatis consequatur quod modi
-                  dignissimos.
-                </p>
-              </div>
-
-              <div className={`${classes.testimonial__item}`}>
-                <div className={`${classes.testimonial__client}`}>
-                  <Image
-                    alt="client-img"
-                    src="/images/hero.jpg"
-                    width="50"
-                    height="50"
-                    className=" rounded-2"
-                  />
-
-                  <div>
-                    <h6>Henry Nichols</h6>
-                    <h6>Web Developer</h6>
-                  </div>
-                </div>
-
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi saepe eveniet dolores molestias nisi ullam quis
-                  delectus inventore, quidem beatae ipsa pariatur doloribus
-                  corrupti! Quisquam expedita minima, neque et quis, fugiat hic
-                  iste possimus vitae perspiciatis consequatur quod modi
-                  dignissimos.
-                </p>
-              </div>
-
-              <div className={`${classes.testimonial__item}`}>
-                <div className={`${classes.testimonial__client}`}>
-                  <Image
-                    alt="client-img"
-                    src="/images/hero.jpg"
-                    width="50"
-                    height="50"
-                    className=" rounded-2"
-                  />
-
-                  <div>
-                    <h6>Adam Smith</h6>
-                    <h6>Financial Accountant</h6>
-                  </div>
-                </div>
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi saepe eveniet dolores molestias nisi ullam quis
-                  delectus inventore, quidem beatae ipsa pariatur doloribus
-                  corrupti! Quisquam expedita minima, neque et quis, fugiat hic
-                  iste possimus vitae perspiciatis consequatur quod modi
-                  dignissimos.
-                </p>
-              </div>
-            </Slider>
-          </Col> */}
         </Row>
+
         {/* <EndDiv type="section" /> */}
       </Container>
     </section>
