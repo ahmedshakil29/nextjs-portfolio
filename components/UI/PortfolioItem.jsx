@@ -98,7 +98,7 @@ const PortfolioItem = (props) => {
   return (
     <div className={`${classes.portfolio__item}`}>
       <div className="bg-transparent">
-        <h5 style={{ color: "#808dad" }}>{seeitinaction}</h5>
+        {/* <h5 style={{ color: "#808dad" }}>{seeitinaction}</h5> */}
         <h3 className="mb-4">{title}</h3>
         <h5 style={{ color: "#808dad" }}>{des}</h5>
         <h5 style={{ color: "white" }}>{description}</h5>

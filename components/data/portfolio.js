@@ -2,26 +2,26 @@
 // https://github.com/TIRony/my_portfolio
 
 const portfolio = [
-  // {
-  //   id: "01",
-  //   title: "E-Commerce store",
-  //   img: "/images/portfolio 01.jpg",
-  //   category: "Projects",
-  //   keyword: [
-  //     "REACT",
-  //     "NODE",
-  //     "EXPRESS",
-  //     "MONGODB",
-  //     "ANT DESIGN",
-  //     "REDUX",
-  //     "HEROKU",
-  //     "NETLIFY",
-  //   ],
-  //   liveUrl: "https://hawk-tech.netlify.app/",
-  //   gitUrl: "null",
-  //   description:
-  //     "It's a Full-stack e-Commerce web application. The goal of this project is to build an eCommerce website that is fast, easy to update, and mobile responsive. And I'm trying to make it a single-page application for better use.",
-  // },
+  {
+    id: "01",
+    title: "E-Commerce store",
+    img: "/images/portfolio 01.jpg",
+    category: "Projects",
+    keyword: [
+      "REACT",
+      "NODE",
+      "EXPRESS",
+      "MONGODB",
+      "ANT DESIGN",
+      "REDUX",
+      "HEROKU",
+      "NETLIFY",
+    ],
+    liveUrl: "https://hawk-tech.netlify.app/",
+    gitUrl: "null",
+    description:
+      "It's a Full-stack e-Commerce web application. The goal of this project is to build an eCommerce website that is fast, easy to update, and mobile responsive. And I'm trying to make it a single-page application for better use.",
+  },
 
   {
     id: "02",
