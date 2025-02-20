@@ -19,7 +19,7 @@ const portfolio = [
       "Open Zeppelin ",
       "Alchemy",
     ],
-    liveUrl: "https://hawk-tech.netlify.app/",
+    liveUrl: "https://www.artnbud.com/",
     gitUrl: "null",
     description:
       "Collaborated with a team to build ARTnBUD, a decentralized platform for art investments and digital art displays. Designed and developed interactive user interfaces, implemented responsive design, and integrated dynamic features for user-friendly navigation. Key contributions include the development of scalable components and optimizing web performance for seamless user experiences.",
