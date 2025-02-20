@@ -11,7 +11,7 @@ const Contact = () => {
   const contactMe = "You can feel free to contact me";
   const social = "Social...";
   const address = "Address...";
-  const reachMe = "// or reach me here..";
+  const reachMe = "⚡ or reach me here..";
 
   return (
     <section id="contact" className={`${classes.contact}`}>
@@ -24,7 +24,7 @@ const Contact = () => {
               {contactMe}
             </h5>
             <h2 className="mt-4 mb-4">Get in touch... 📡</h2>
-            <h5 className={`${classes.about__self}`}>Want to reach me??</h5>
+            <h5 className={`${classes.about__self}`}>Want to reach me ???</h5>
             <h5 className={`${classes.about__self}`}>
               Send me an email and Thank you for your time and consideration
             </h5>
@@ -50,7 +50,7 @@ const Contact = () => {
                 <i className="ri-facebook-line"></i>
               </Link> */}
               <Link
-                href="https://www.linkedin.com/in/shakil-ahmed-aiub/"
+                href="https://www.linkedin.com/in/shakilahmed29/"
                 target="_blank"
               >
                 <i className="ri-linkedin-line"></i>
