@@ -5,7 +5,7 @@ const portfolio = [
   {
     id: "01",
     title: "E-Commerce store",
-    img: "/images/portfolio 01.jpg",
+    img: "/images/portfolio01.jpg",
     category: "Projects",
     keyword: [
       "REACT",
@@ -20,13 +20,13 @@ const portfolio = [
     liveUrl: "https://hawk-tech.netlify.app/",
     gitUrl: "null",
     description:
-      "It's a Full-stack e-Commerce web application. The goal of this project is to build an eCommerce website that is fast, easy to update, and mobile responsive. And I'm trying to make it a single-page application for better use.",
+      "It's a Full-stack e-Commerce web application. The goal of this project is to build an e-Commerce website that is fast, easy to update, and mobile responsive. And I'm trying to make it a single-page application for better use.",
   },
 
   {
     id: "02",
     title: "Portfolio site",
-    img: "/images/portfolio 02.jpg",
+    img: "/images/portfolio02.jpg",
     category: "Projects",
     keyword: ["NEXT", "NODE", "EXPRESS", "MYSQL", "BOOTSTRAP"],
     liveUrl: "/",
@@ -38,7 +38,7 @@ const portfolio = [
   {
     id: "03",
     title: "Service worker provider",
-    img: "/images/portfolio 03.jpg",
+    img: "/images/portfolio03.jpg",
     category: "Projects",
     keyword: ["PHP", "EXPRESS", "NODE", "JAVASCRIPT", "CSS", "HTML5", "AJAX"],
     liveUrl:
@@ -70,7 +70,7 @@ const portfolio = [
   {
     id: "05",
     title: "Service worker provider",
-    img: "/images/portfolio 03.jpg",
+    img: "/images/portfolio03.jpg",
     category: "Academic Projects",
     keyword: ["PHP", "JAVASCRIPT", "CSS", "HTML5", "AJAX"],
     liveUrl:
