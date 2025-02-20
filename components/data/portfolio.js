@@ -4,6 +4,28 @@
 const portfolio = [
   {
     id: "01",
+    title: "ARTnBUD",
+    img: "/images/portfolio04.jpg",
+    category: "Projects",
+    keyword: [
+      "NextJS",
+      "NODE",
+      "EXPRESS",
+      "MONGODB",
+      "CSS",
+      "REDUX",
+      "WEB3",
+      "IPFS",
+      "Open Zeppelin ",
+      "Alchemy",
+    ],
+    liveUrl: "https://hawk-tech.netlify.app/",
+    gitUrl: "null",
+    description:
+      "Collaborated with a team to build ARTnBUD, a decentralized platform for art investments and digital art displays. Designed and developed interactive user interfaces, implemented responsive design, and integrated dynamic features for user-friendly navigation. Key contributions include the development of scalable components and optimizing web performance for seamless user experiences.",
+  },
+  {
+    id: "01",
     title: "E-Commerce store",
     img: "/images/portfolio01.jpg",
     category: "Projects",
