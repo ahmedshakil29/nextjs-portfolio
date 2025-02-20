@@ -9,18 +9,21 @@ import StartDiv from "./StartDiv";
 
 const Tools = () => {
   const tools = "// i like to use these favorite tools right now...";
+  const tool =
+    "⚡ Building responsive web front-end using React.\n" +
+    "⚡ Creating application back-end in Node.js.";
 
   return (
     <section id="tools">
       <Container>
         <StartDiv title="Tools" type="section" />
         <Row>
-          {/* <h5
+          <h5
             className="mb-4"
             style={{ color: "#808dad", paddingBottom: "40px" }}
           >
-            {tools}
-          </h5> */}
+            {tool}
+          </h5>
 
           <Col lg="4" md="4" className={`${classes.testimonial__back}`}>
             <h4 className="mb-4" style={{ color: "#01d293" }}>
@@ -77,6 +80,7 @@ const Tools = () => {
               Ant Design
             </h5>
           </Col>
+
           <Col lg="4" md="4" className={`${classes.testimonial__other}`}>
             <h4 className="mb-4" style={{ color: "#01d293" }}>
               Others
@@ -85,10 +89,16 @@ const Tools = () => {
               TypeScripts
             </h5>
             <h5 className="mb-4" style={{ color: "White" }}>
-              Linux
+              IPFS
             </h5>
             <h5 className="mb-4" style={{ color: "White" }}>
-              AJAX
+              Open Zeppelin
+            </h5>
+            <h5 className="mb-4" style={{ color: "White" }}>
+              Alchemy
+            </h5>
+            <h5 className="mb-4" style={{ color: "White" }}>
+              Postman
             </h5>
           </Col>
         </Row>
