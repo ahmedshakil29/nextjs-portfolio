@@ -23,17 +23,30 @@ const Hero = () => {
                 | Smart Contract Auditor I am a full Stack Software Engineer
                 based in Dhaka, Bangladesh. Working towards creating software
                 that makes life easier and more meaningful.<br></br> */}
-                With a passion for both Blockchain and full Stack software
+              </h5>
+              <h5 className="mb-4" style={{ textAlign: "justify" }}>
+                {/* With a passion for both Blockchain and full Stack software
                 engineering, I am committed to helping organizations leverage
                 the power of decentralized technology. Whether its designing
-                smart contracts, building decentralized applications.
+                smart contracts, building decentralized applications. */}
+                Driven by a deep passion for Blockchain technology and
+                full-stack software engineering, I am dedicated to empowering
+                organizations by unlocking the potential of decentralized
+                solutions. From designing secure and efficient smart contracts
+                to building robust decentralized applications (dApps), I strive
+                to develop innovative systems that drive impact and efficiency.
                 <br />
                 <br />
-                In addition to my technical skills, I am a quick learner, a
+                {/* In addition to my technical skills, I am a quick learner, a
                 problem solver, and a team player. I am eager to collaborate
                 with other professionals in the blockchain industry to apply my
-                knowledge and skills in real-world projects.
+                knowledge and skills in real-world projects. */}
+                Alongside my technical expertise, I am a quick learner, problem
+                solver, and collaborative team player. I am eager to work with
+                like-minded professionals in the blockchain industry to deliver
+                real-world solutions that push the boundaries of innovation.
               </h5>
+
               <p></p>
               <div className="mt-5">
                 {/* <Link
@@ -56,7 +69,6 @@ const Hero = () => {
                     fontWeight: "500",
                   }}
                   href="./files/CV_of_Shakil_Ahmed.pdf"
-                  // href="./file/CV_of_Shakil_Ahmed.pdf"
                   download
                 >
                   Resume 📃
