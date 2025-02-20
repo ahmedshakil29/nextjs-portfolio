@@ -21,6 +21,19 @@ const Work = () => {
         <Col lg="8" md="8">
           <div className={`${classes.services__container}`}>
             <Qualification
+              institute=" Bangochain Labs "
+              degree="Full Stack Software Developer "
+              year="Jan 2023 – Jan 2025"
+              des="Contributed as a Full-Stack Software Developer for ARTnBUD, a
+            decentralized platform focused on art investments and digital art
+            displays. Developed both front-end interfaces and back-end systems,
+            ensuring responsive design, efficient server-side logic, and robust
+            database management. Prioritized performance optimization,
+            scalability, and secure handling of user data to deliver a
+            high-quality user experience."
+            />
+            <br></br>
+            <Qualification
               institute="  American International University - Bangladesh (AIUB) "
               degree="Teaching Assistant "
               year="2021"
@@ -36,7 +49,6 @@ const Work = () => {
               I am excited to share my findings with the wider community. 
           "
             />
-
             <Link
               style={{ textDecoration: "none" }}
               // className={`${classes.about__link}`}
