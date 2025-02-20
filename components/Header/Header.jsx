@@ -86,7 +86,7 @@ const Header = () => {
                 {/* <div className={`${classes.social__links}`}> */}
                 <p className=" d-flex align-items-center gap-2 mb-0">
                   <Link
-                    href="https://www.linkedin.com/in/shakil-ahmed-aiub/"
+                    href="https://www.linkedin.com/in/shakilahmed29/"
                     target="_blank"
                   >
                     <i className="ri-linkedin-line"></i>
