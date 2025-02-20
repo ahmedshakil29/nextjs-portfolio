@@ -3,7 +3,7 @@ import classes from "../../styles/div.module.css";
 
 const Qualification = (props) => {
   return (
-    <div>
+    <div style={{ textAlign: "justify" }}>
       <h3 className="mb-4 mt-4" style={{ color: "#white" }}>
         {props.degree}
       </h3>
