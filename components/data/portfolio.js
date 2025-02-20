@@ -25,7 +25,7 @@ const portfolio = [
       "Collaborated with a team to build ARTnBUD, a decentralized platform for art investments and digital art displays. Designed and developed interactive user interfaces, implemented responsive design, and integrated dynamic features for user-friendly navigation. Key contributions include the development of scalable components and optimizing web performance for seamless user experiences.",
   },
   {
-    id: "01",
+    id: "02",
     title: "E-Commerce store",
     img: "/images/portfolio01.jpg",
     category: "Projects",
@@ -46,7 +46,7 @@ const portfolio = [
   },
 
   {
-    id: "02",
+    id: "03",
     title: "Portfolio site",
     img: "/images/portfolio02.jpg",
     category: "Projects",
@@ -58,7 +58,7 @@ const portfolio = [
   },
 
   {
-    id: "03",
+    id: "04",
     title: "Service worker provider",
     img: "/images/portfolio03.jpg",
     category: "Projects",
@@ -70,7 +70,7 @@ const portfolio = [
       "This project is about providing online services as needed like a plumber or electrician etc. This project was in our curriculum, and after graduation, I added a pinch of salt to make it more palatable. ",
   },
   {
-    id: "04",
+    id: "05",
     title: "Inventory Management System",
     img: "/images/IMS.png",
     category: "Projects",
@@ -90,7 +90,7 @@ const portfolio = [
       "ASP.NET Core Blazor in .NET 6 using Entity Framework Core, SQL Server, Clean Architecture and ASP.NET Core Identity for Authentication and Authorization. ",
   },
   {
-    id: "05",
+    id: "06",
     title: "Service worker provider",
     img: "/images/portfolio03.jpg",
     category: "Academic Projects",
@@ -103,11 +103,11 @@ const portfolio = [
   },
 
   {
-    id: "06",
+    id: "07",
     title: "House Management system",
     img: "/images/HMS.PNG",
     category: "Academic Projects",
-    keyword: ["C#", "ENTITY", "MYSQL"],
+    keyword: ["C#", "ENTITY", "SQL Server"],
     liveUrl: "null",
     gitUrl: "https://github.com/ahmedshakil29/HouseManagement",
     description:
