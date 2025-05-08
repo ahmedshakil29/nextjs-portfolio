@@ -34,12 +34,19 @@ const Work = () => {
             />
             <br></br>
             <Qualification
+              institute="Design and Implementation of a Blockchain-Based Supply Chain Management System"
+              degree="Thesis Research "
+              year="2022"
+              des="Designed and implemented a blockchain-based supply chain management system to enhance transparency, traceability, and efficiency across supply chain operations. The project involved developing a working prototype using Ethereum smart contracts for secure, decentralized transaction recording and React.js for the frontend interface. The system demonstrated a 40% improvement in transaction efficiency compared to traditional methods, showcasing the potential of blockchain technology in modernizing supply chain workflows."
+            />
+            <br></br>
+            <Qualification
               institute="  American International University - Bangladesh (AIUB) "
               degree="Teaching Assistant "
               year="2021"
               des="My work is to Assist the students with their lab tasks and Assist the course teacher in preparing course materials."
             />
-            <br></br>
+
             <Qualification
               institute="American International University - Bangladesh (AIUB)"
               degree="Thesis Research "
@@ -57,6 +64,7 @@ const Work = () => {
             >
               <h5 className="mb-4 ri-link"> See the paper..</h5>
             </Link>
+            <br></br>
           </div>
         </Col>
 
