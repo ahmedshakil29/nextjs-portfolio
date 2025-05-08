@@ -29,12 +29,18 @@ const Hero = () => {
                 engineering, I am committed to helping organizations leverage
                 the power of decentralized technology. Whether its designing
                 smart contracts, building decentralized applications. */}
-                Driven by a deep passion for Blockchain technology and
+                {/* Driven by a deep passion for Blockchain technology and
                 full-stack software engineering, I am dedicated to empowering
                 organizations by unlocking the potential of decentralized
                 solutions. From designing secure and efficient smart contracts
                 to building robust decentralized applications (dApps), I strive
-                to develop innovative systems that drive impact and efficiency.
+                to develop innovative systems that drive impact and efficiency. */}
+                Motivated Full Stack Developer with expertise in React.js,
+                Next.js, Express.js, and ASP.NET Core. Proven track record in
+                designing scalable backend systems, delivering performant
+                frontend, and managing DevOps workflows. Passionate about
+                contributing to dynamic teams and building innovative web
+                applications that drive business growth.
                 <br />
                 <br />
                 {/* In addition to my technical skills, I am a quick learner, a

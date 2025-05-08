@@ -23,7 +23,7 @@ const Work = () => {
             <Qualification
               institute=" Bangochain Labs "
               degree="Full Stack Software Developer "
-              year="Jan 2023 – Jan 2025"
+              year="Jan 2023 – Present"
               des="Contributed as a Full-Stack Software Developer for ARTnBUD, a
             decentralized platform focused on art investments and digital art
             displays. Developed both front-end interfaces and back-end systems,
